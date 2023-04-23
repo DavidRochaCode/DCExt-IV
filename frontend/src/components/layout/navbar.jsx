@@ -9,6 +9,7 @@ function Navbar() {
         <Link to="/">
         <img
         src="https://cdn.discordapp.com/attachments/1019312548652257312/1099814255521439744/DCExt-IV.png"
+        width="100"
         alt="dceIcon"
       />
         </Link>
