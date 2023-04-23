@@ -19,7 +19,7 @@ function Autismo() {
 
   const getByCategory = async() => {
     try {
-        const card = await Axios.get(https://dcex.onrender.com/autism/get/category/${encodeURI(category)}`, {
+        const card = await Axios.get(`https://dcex.onrender.com/autism/get/category/${encodeURI(category)}`, {
         });
         setCards(card.data);
     } catch (error) {
