@@ -16,7 +16,7 @@ function Idosos() {
 
   const getByCategory = async() => {
     try {
-        const card = await Axios.get(`http://localhost:3001/elder/get/category/${encodeURI(category)}`, {
+        const card = await Axios.get(`https://dcex.onrender.com/elder/get/category/${encodeURI(category)}`, {
         });
         setCards(card.data);
     } catch (error) {
@@ -25,7 +25,7 @@ function Idosos() {
   }
 
   const getCards = async() => {
-    Axios.get(`http://localhost:3001/elder/get`)
+    Axios.get(`https://dcex.onrender.com/elder/get`)
       .then((response) => {
         setCards(response.data);
         console.log(response.data)
@@ -49,7 +49,7 @@ const handleFilter = () => {
 
   useEffect(() => {
     console.log("Fetching cards...");
-    Axios.get(`http://localhost:3001/elder/get`)
+    Axios.get(`https://dcex.onrender.com/elder/get`)
       .then((response) => {
         setCards(response.data);
         console.log(response.data)
