@@ -14,7 +14,7 @@ function PCD() {
 
   const getByCategory = async() => {
     try {
-        const card = await Axios.get(`http://localhost:3001/disabled/get/category/${encodeURI(category)}`, {
+        const card = await Axios.get(`https://dcex.onrender.com/disabled/get/category/${encodeURI(category)}`, {
         });
         setCards(card.data);
     } catch (error) {
@@ -23,7 +23,7 @@ function PCD() {
   }
 
   const getCards = async() => {
-    Axios.get(`http://localhost:3001/disabled/get`)
+    Axios.get(`https://dcex.onrender.com/disabled/get`)
       .then((response) => {
         setCards(response.data);
         console.log(response.data)
