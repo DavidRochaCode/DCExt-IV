@@ -7,7 +7,7 @@ function Navbar() {
     <div>
       <div className="navbar">
         <Link to="/">
-          <img src="../../../src/assets/DCExt-IV.png" alt="Logo da navbar, está escrito DCExt-v" width="100"/>
+          <img src="frontend\src\assets\DCExt-IV.png" alt="Logo da navbar, está escrito DCExt-v" width="100"/>
         </Link>
         <Link className='menu' to="/publicar">
           Publicar
