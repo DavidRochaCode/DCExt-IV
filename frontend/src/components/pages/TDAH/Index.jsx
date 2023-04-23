@@ -15,7 +15,7 @@ function TDAH() {
 
   const getByCategory = async() => {
     try {
-        const card = await Axios.get(`http://localhost:3001/adhd/get/category/${encodeURI(category)}`, {
+        const card = await Axios.get(`https://dcex.onrender.com/adhd/get/category/${encodeURI(category)}`, {
         });
         setCards(card.data);
     } catch (error) {
@@ -24,7 +24,7 @@ function TDAH() {
   }
 
   const getCards = async() => {
-    Axios.get(`http://localhost:3001/adhd/get`)
+    Axios.get(`https://dcex.onrender.com/adhd/get`)
       .then((response) => {
         setCards(response.data);
         console.log(response.data)
