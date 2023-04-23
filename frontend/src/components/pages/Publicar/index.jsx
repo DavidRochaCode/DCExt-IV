@@ -124,7 +124,7 @@ function Publicar() {
     //  AXIOS AREA
     if (formData.selected === "autismo") {
       axios
-      .post("http://localhost:3001/autism/create", data)
+      .post("https://dcex.onrender.com/autism/create", data)
       .then(response => {
         if (response.status === 200) {
           console.log("publicado");
@@ -137,7 +137,7 @@ function Publicar() {
       
     } else if (formData.selected === "idosos") {
       axios
-      .post("http://localhost:3001/elder/create", data)
+      .post("https://dcex.onrender.com/elder/create", data)
       .then(response => {
         if (response.status === 200) {
           console.log("publicado");
@@ -149,7 +149,7 @@ function Publicar() {
       });
     }else if(formData.selected === "TDAH"){
       axios
-      .post("http://localhost:3001/adhd/create", data)
+      .post("https://dcex.onrender.com/adhd/create", data)
       .then(response => {
         if (response.status === 200) {
           console.log("publicado");
@@ -161,7 +161,7 @@ function Publicar() {
       });
     }else if (formData.selected === "PCD"){
       axios
-      .post("http://localhost:3001/disabled/create", data)
+      .post("https://dcex.onrender.com/disabled/create", data)
       .then(response => {
         if (response.status === 200) {
           console.log("publicado");
