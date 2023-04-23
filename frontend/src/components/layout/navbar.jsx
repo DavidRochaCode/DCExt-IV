@@ -8,7 +8,7 @@ function Navbar() {
       <div className="navbar">
         <Link to="/">
         <img
-        src="https://drive.google.com/file/d/1EzC_bMDIXd5vH2_3ncbdfqluXv_ZyTDZ/view?usp=sharing"
+        src="https://cdn.discordapp.com/attachments/1019312548652257312/1099814255521439744/DCExt-IV.png"
         alt="dceIcon"
       />
         </Link>
