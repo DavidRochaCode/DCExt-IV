@@ -63,7 +63,7 @@ const handleFilter = () => {
         description: "Idosos",
         imageUrl: "https://cdn.discordapp.com/attachments/440326168491720705/1088971906880901141/image.png",
         imageAltText: "Idosos",
-        description2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum maximus risus id efficitur. Quisque vel malesuada nibh. Aliquam sed tellus sem. Duis tellus nisi, vehicula eget fermentum in, dignissim id massa. Etiam tincidunt nunc leo, et lobortis sem cursus non. Duis ac aliquet elit, at posuere mauris. Donec ut euismod urna. Proin pretium ultricies porttitor. Aenean libero tortor, consequat sed congue sit amet, interdum vel dolor. Suspendisse potenti.",
+        description2: "Muitos idosos querem ainda permanecer com uma certa independência sobre eles próprios, sendo mais específico, ainda desejam fazer as coisas sozinhos sem a ajuda de outras pessoas e isso pode ser possível com a ajuda de sistema tecnológicos que possam ajudar no dia-a-dia. Porém, existem, em quantidade mínima, aplicativos específicos para assistir a população idosa, e os que existem, em sua grande maioria, acabam prejudicando mais do que ajudando. Logo, buscamos pesquisar, testar e separar aplicativos que conseguissem ajudar o dia-a-dia de um idoso que busca ainda ter uma independência pessoal. Os aplicativos foram separados por desempenho, interface e quantidade de anúncios e os que se destacaram mais entre essa filtragem, estão neste catálogo, juntamente com…",
         circleColor: "blue"
       };
 
