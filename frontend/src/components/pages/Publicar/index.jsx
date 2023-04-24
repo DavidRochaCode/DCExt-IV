@@ -204,6 +204,8 @@ function Publicar() {
               <option value="Jogos Físicos">Jogos Físicos</option>
               <option value="Cartilhas">Cartilhas</option>
               <option value="Documentos">Documentos</option>
+              <option value="Documentos">Aplicativos</option>
+              
             </select>
           </div>
           <div>
