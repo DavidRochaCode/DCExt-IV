@@ -7,7 +7,11 @@ function Navbar() {
     <div>
       <div className="navbar">
         <Link to="/">
-          <img src="../../../src/assets/DCExt-IV.png" alt="Logo da navbar, está escrito DCExt-v" width="100"/>
+        <img
+        src="https://cdn.discordapp.com/attachments/1019312548652257312/1099814255521439744/DCExt-IV.png"
+        width="100"
+        alt="dceIcon"
+      />
         </Link>
         <Link className='menu' to="/publicar">
           Publicar
